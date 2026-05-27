@@ -311,7 +311,7 @@ export const Onboarding: React.FC<OnboardingProps> = ({ onOnboardingComplete, is
                 <button
                   type="button"
                   onClick={() => setStep(1)}
-                  className="w-1/3 py-4 border theme-border hover:bg-zinc-100 dark:hover:bg-zinc-800 text-zinc-500 theme-text-primary font-bold uppercase text-xs rounded-xl transition cursor-pointer"
+                  className="w-1/3 py-4 border theme-border bg-transparent text-zinc-500 dark:text-zinc-400 hover:bg-zinc-100 dark:hover:bg-zinc-800 hover:text-[#FE2C55] dark:hover:text-[#25F4EE] font-bold uppercase text-xs rounded-xl transition cursor-pointer"
                 >
                   Back
                 </button>
@@ -375,7 +375,7 @@ export const Onboarding: React.FC<OnboardingProps> = ({ onOnboardingComplete, is
                 <button
                   type="button"
                   onClick={() => setStep(2)}
-                  className="w-1/3 py-4 border theme-border hover:bg-zinc-100 dark:hover:bg-zinc-800 text-zinc-500 theme-text-primary font-bold uppercase text-xs rounded-xl transition cursor-pointer"
+                  className="w-1/3 py-4 border theme-border bg-transparent text-zinc-500 dark:text-zinc-400 hover:bg-zinc-100 dark:hover:bg-zinc-800 hover:text-[#FE2C55] dark:hover:text-[#25F4EE] font-bold uppercase text-xs rounded-xl transition cursor-pointer"
                 >
                   Back
                 </button>

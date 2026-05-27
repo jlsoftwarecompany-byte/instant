@@ -352,7 +352,7 @@ export const Chat: React.FC<ChatProps> = ({
                   ? "bg-amber-500/10 text-amber-500 border-amber-500/30" 
                   : saveStatus === "request_received"
                     ? "bg-gradient-to-r from-[#FE2C55] to-[#a855f7] text-white animate-bounce border-transparent"
-                    : "bg-zinc-100 dark:bg-zinc-900 border-transparent hover:text-[#FE2C55] hover:bg-rose-500/5 hover:border-pink-500/10"
+                    : "text-zinc-800 dark:text-zinc-200 bg-zinc-100 dark:bg-zinc-900 border-transparent hover:text-[#FE2C55] hover:bg-rose-500/5 hover:border-pink-500/10"
                 }
               `}
             >

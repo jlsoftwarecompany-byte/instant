@@ -21,6 +21,7 @@ export const ThemeProvider: React.FC<{ children: React.ReactNode }> = ({ childre
     const root = window.document.documentElement;
     if (theme === "black") {
       root.classList.add("dark-theme");
+      root.classList.add("dark");
       root.style.setProperty("--background", "#04010a"); // Cyber black-purple
       root.style.setProperty("--foreground", "#f1f1fc"); // Soft glowing white
       root.style.setProperty("--card-bg", "#0b0518"); // Rich glowing deep purple container
@@ -30,6 +31,7 @@ export const ThemeProvider: React.FC<{ children: React.ReactNode }> = ({ childre
       root.style.backgroundColor = "#04010a";
     } else {
       root.classList.remove("dark-theme");
+      root.classList.remove("dark");
       root.style.setProperty("--background", "#f6f2ff"); // Soft lilac-toned daylight
       root.style.setProperty("--foreground", "#1a0833"); // Deep violet text
       root.style.setProperty("--card-bg", "#ffffff"); // Pure white card

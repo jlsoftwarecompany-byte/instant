@@ -336,12 +336,12 @@ export const Inbox: React.FC<InboxProps> = ({
                           });
                         }}
                         className={`px-3 py-1 text-[9px] font-black uppercase tracking-wider rounded-lg transition duration-150 cursor-pointer border
-                          ${uColor === 'pink' ? 'bg-[#FE2C55] border-[#FE2C55] text-white hover:bg-transparent hover:text-[#FE2C55]' : ''}
-                          ${uColor === 'cyan' ? 'bg-[#25F4EE] border-[#25F4EE] text-black hover:bg-transparent hover:text-[#25F4EE]' : ''}
-                          ${uColor === 'purple' ? 'bg-[#a855f7] border-[#a855f7] text-white hover:bg-transparent hover:text-[#a855f7]' : ''}
-                          ${uColor === 'gold' ? 'bg-[#eab308] border-[#eab308] text-zinc-950 hover:bg-transparent hover:text-[#eab308]' : ''}
-                          ${uColor === 'green' ? 'bg-[#22c55e] border-[#22c55e] text-white hover:bg-transparent hover:text-[#22c55e]' : ''}
-                          ${uColor === 'blue' ? 'bg-[#3b82f6] border-[#3b82f6] text-white hover:bg-transparent hover:text-[#3b82f6]' : ''}
+                          ${uColor === 'pink' ? 'bg-[#FE2C55] border-[#FE2C55] text-white hover:opacity-90' : ''}
+                          ${uColor === 'cyan' ? 'bg-[#25F4EE] border-[#25F4EE] text-black hover:opacity-90' : ''}
+                          ${uColor === 'purple' ? 'bg-[#a855f7] border-[#a855f7] text-white hover:opacity-90' : ''}
+                          ${uColor === 'gold' ? 'bg-[#eab308] border-[#eab308] text-zinc-950 hover:opacity-90' : ''}
+                          ${uColor === 'green' ? 'bg-[#22c55e] border-[#22c55e] text-white hover:opacity-90' : ''}
+                          ${uColor === 'blue' ? 'bg-[#3b82f6] border-[#3b82f6] text-white hover:opacity-90' : ''}
                         `}
                       >
                         ⚡ Add

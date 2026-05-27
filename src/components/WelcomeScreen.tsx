@@ -45,7 +45,7 @@ export const WelcomeScreen: React.FC<WelcomeScreenProps> = ({ onCreateAccount, o
 
           <button
             onClick={onLogIn}
-            className="w-full py-4 border theme-border hover:bg-zinc-100 dark:hover:bg-zinc-900 bg-[var(--background)] text-zinc-800 dark:text-zinc-200 font-bold tracking-wider uppercase text-xs rounded-xl transition flex items-center justify-center gap-2 cursor-pointer active:scale-98"
+            className="w-full py-4 border theme-border bg-transparent text-zinc-800 dark:text-zinc-200 hover:bg-zinc-100 dark:hover:bg-zinc-800 hover:text-[#FE2C55] dark:hover:text-[#25F4EE] font-bold tracking-wider uppercase text-xs rounded-xl transition flex items-center justify-center gap-2 cursor-pointer active:scale-98"
           >
             <LogIn className="w-4 h-4" />
             Log In
